@@ -1,0 +1,43 @@
+{
+  "name": "crypto-project-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.1",
+    "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "install": "^0.10.4",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.7",
+    "mongoose-unique-validator": "^2.0.0",
+    "node-coinmarketcap": "^0.2.0",
+    "nodemailer": "^4.6.2",
+    "npm": "^5.7.1",
+    "react-fetch": "^0.0.9",
+    "request-promise": "^4.2.2",
+    "stringify": "^5.2.0",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.0"
+  }
+}
