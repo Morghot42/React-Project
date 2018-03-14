@@ -1838,6 +1838,10 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
+cryptocoins-icons@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/cryptocoins-icons/-/cryptocoins-icons-2.7.0.tgz#53e455f367bd3add9e91a611366957edcf60e3b3"
+
 css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
@@ -5998,6 +6002,12 @@ react-error-overlay@^4.0.0:
 react-json-to-html@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/react-json-to-html/-/react-json-to-html-0.0.1.tgz#0dfb14a8737411958bebeff02f217b03e7d26f6c"
+
+react-number-format@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-number-format/-/react-number-format-3.2.0.tgz#83b542317d5d7403435a93dce8e6f9dc0f46e0f3"
+  dependencies:
+    prop-types "^15.6.0"
 
 react-overlays@^0.8.0:
   version "0.8.3"

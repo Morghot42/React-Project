@@ -11,7 +11,7 @@ const router = express.Router();
 router.use(authenticate);
 
 router.get("/", (req, res) => {
-  Coin.find({ userId: req.currentUser._id }).then(coins => res.json({ coins }));
+  Coin.find({ userId: req.currentUser.id }).then(coins => res.json({ coins }));
 });
 
 router.post("/", (req, res) => {

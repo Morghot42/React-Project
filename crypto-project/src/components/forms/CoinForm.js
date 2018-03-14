@@ -71,12 +71,12 @@ class CoinForm extends React.Component {
             <Grid.Row>
               <Grid.Column>
                 <Form.Field error={!!errors.title}>
-                  <label htmlFor="title">Coin id</label>
+                  <label htmlFor="title">Coin Quantity</label>
                   <input
-                    type="text"
+                    type="number"
                     id="id"
                     name="id"
-                    placeholder="id"
+                    placeholder="Quantity"
                     value={data.id}
                     onChange={this.onChange}
                   />
@@ -84,12 +84,12 @@ class CoinForm extends React.Component {
                 </Form.Field>
 
                 <Form.Field error={!!errors.name}>
-                  <label htmlFor="name">Coin name</label>
+                  <label htmlFor="name">Coin price</label>
                   <input
-                    type="text"
+                    type="number"
                     id="name"
                     name="name"
-                    placeholder="name"
+                    placeholder="Price"
                     value={data.name}
                     onChange={this.onChange}
                   />

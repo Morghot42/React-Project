@@ -9,6 +9,7 @@ import auth from "./routes/auth";
 import users from "./routes/users";
 import coins from "./routes/coins";
 
+
 dotenv.config();
 const app = express();
 app.use(bodyParser.json());

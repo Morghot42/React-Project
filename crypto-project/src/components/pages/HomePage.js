@@ -3,15 +3,25 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import * as actions from "../../actions/auth";
+import "../css/homepage.css";
 
 const HomePage = ({ isAuthenticated, logout }) => (
   <div>
-    <h1>Home Page</h1>
+    <h1></h1>
     {isAuthenticated ? (
       <button onClick={() => logout()}>Logout</button>
     ) : (
       <div>
-        <Link to="/login">Login</Link> or <Link to="/signup">Sign Up</Link> or <Link to="/coinslist">Coins List</Link>
+        <header class="header">
+          <h1 class="logo">Logo</h1>
+          <ul class="nav">
+            <li><a href="/coinslist">Coins</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Sign In</a></li>
+              <li><a href="/new/coin">add coin</a></li>
+
+          </ul>
+        </header>
       </div>
     )}
   </div>
